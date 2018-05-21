@@ -2,7 +2,7 @@
 
 const express = require('express');
 
-// Simple In-Memory Database
+// Load array of notes
 const data = require('./db/notes');
 
 // Create an Express application
