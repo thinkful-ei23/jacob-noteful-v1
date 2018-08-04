@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: jMD3lRur/0QywEouph0/Jj2BWN01bVjWaRXU3tDV5FuKHUobf2dA+Eu38iXQYA03355r5jLdvxT7S3wsYxUHdzoeLnhGQmEFl+2eid+A1sBxp9ic4b2IJKn1cNRH/wmQSY5WV7QCzT0BxlWo0nsKOyIFw30WBqRm4fzhDXb10VkgsPZr9ECOVpFi7pvwOaVBuauaK1f8cqjAbqi6Zi/tr5I8j/t3wvvwtjkEkY+wG1tFP3gnnkDXvdZzBSvBUU2oylfQXDQXvsMxQkJfoSGKjdUNU5O+A4fH9ExDDJgQhCeD0pS6iGwPdBY1mIThP6y7Fg0Mkyh/6SHXFD8YzplrQRDtCqMBOtvclR5CqiCG+xgjArwtLjLb6Vy8nox0/vGRzU0OBH/j9u63M2KSnIy1UaMkgPB1SkMBUQEZd9fYyaUSa8ydAhRjxpCp8QCH0emaQug8HYhtzODH1UEN839f992afx3uKha8DvqgorYNYtACi7TIw3Y/v6a1JdoA7k0LFeYUjTPg+coplyiKtDH/NmrxpRKiikSGsNBVDmvVnhPzupdkGS24cEJedks/5oK7wpPV8kLUFrqOY4y1hE+PZsIfBZyCvAImmrE+fSVPPSuZP4VQjBBe3eLfhVwVlWTBNtg59Fd8OPGPECgHcYX2ewglHiS4fsnHEqRoxi3kAdk=
+  app: jacob-noteful-v1
+  on:
+    repo: thinkful-ei23/jacob-noteful-v1
