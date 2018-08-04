@@ -1,1 +1,2 @@
+Jacob MacInnis
 # noteful-app
